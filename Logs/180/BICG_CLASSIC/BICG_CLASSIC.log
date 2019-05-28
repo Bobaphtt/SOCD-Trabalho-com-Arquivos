@@ -1,0 +1,26 @@
+Inicio: [0;31m0.0 ms
+[0m[0;31m:::::::::::::::::::::::::::::::::::: Nuvem carregada atraves de arquivos pre-existentes
+[0m[0;31m:::::::::::::::::::::::::::::::::::: ../../input/180dim_9_vizinhos_p0_nos.txt
+[0m[0;31m:::::::::::::::::::::::::::::::::::: ../../input/180dim_9_vizinhos_p0_indices.txt
+[0m[0;31m:::::::::::::::::::::::::::::::::::: ../../input/180dim_9_vizinhos_p0_raios.txt
+[0m[0;31m:::::::::::::::::::::::::::::::::::: 
+[0mTempo de geracao de nuvem (GERADOR PERFEITO): [0;31m183.0 ms
+[0m   DIM conf.:	     180
+   Pontos...:	   32761
+   Vizinhos.:	       9
+   Nao zeros:	  294849
+Tempo de alocacao das estruturas de entrada: [0;31m0.6 ms
+[0m[0;31m:::::::::::::::::::::::::::::::::::: MLPG MLS GPU
+[0m   kernel MLPG blocks.:	      12
+   kernel MLPG threads:	      16
+Tempo de computacao do kernel MLPG: [0;31m10.4 ms
+[0mTempo de gravacao da matriz em vetor em arquivo: [0;31m590.5 ms
+[0m[0;31m:::::::::::::::::::::::::::::::::::: Versao de solver paralela (GPU)
+[0m[0;31m:::::::::::::::::::::::::::::::::::: BICG_CLASSIC
+[0m[0;31m
+Tempo por iteracao:[0m0.433836
+
+Tempo de computacao do BiCGstab: [0;31m673.3 ms
+[0mSTATUS: sucesso na convergencia em 681 iteracoes
+
+Resultado gravado no arquivo: ../../results/180dim_9_vizinhos_p0_MLS_RESULTADO.txt
